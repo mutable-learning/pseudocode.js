@@ -709,7 +709,7 @@ Renderer.prototype._buildTree = function (node) {
             //      <span class="ps-keyword">then</span>
             // </p>
             this._newLine();
-            this._typeKeyword('if ');
+            this._typeKeyword('If ');
             ifCond = node.children[0];
             this._buildTree(ifCond);
             this._typeKeyword(' then');
